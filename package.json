@@ -1,0 +1,17 @@
+{
+  "name": "orderbook-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "orderbook.js",
+  "type": "module",
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest",
+    "start": "node orderbook.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "jest": "^29.7.0"
+  }
+}
