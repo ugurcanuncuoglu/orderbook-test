@@ -39,7 +39,7 @@ npm test
 The tool follows these steps:
 
 1. Fetches the orderbook data from both Binance and BtcTurk APIs
-2. Calculates how much BTC can be purchased with the specified USDT amount on each exchange
+2. Calculates how much USDT can be purchased with the specified BTC amount on each exchange
 3. Compares the results to determine which exchange offers a better rate
 4. Calculates the percentage difference and identifies potential arbitrage opportunities
 
